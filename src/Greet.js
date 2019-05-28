@@ -3,12 +3,17 @@
 
 import React from 'react';
 
-const Greet = ({name, designation}) => {
-    return(
+const Greet = ({ name, designation }) => {
+    function clickHandler() {
+        console.log("Functional Component click handler");
+    }
+    return (
         <div>
             <h1>
                 Hello {name} you are {designation}.
             </h1>
+            <button onClick={clickHandler}>Button1</button>
+
         </div>
     )
 }
