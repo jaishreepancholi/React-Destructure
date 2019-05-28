@@ -4,4 +4,8 @@ React Destructure concept for functional and class component.
 2. It improves code readability.
 
 
-Also Event Gandling with class and functional component.
+It Includes following concept = 
+
+1. Destructure in class and functional component.
+2. Event Binding
+3. Pass data to child from parent
